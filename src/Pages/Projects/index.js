@@ -5,9 +5,9 @@ import './projects.css'
 
 function Projects() {
     return (
-        <>
-        <div className="projects">Projects</div>
+        <>        
         <Nav />
+        <div className="projects">Projects</div>
         <Footer />
         </>
     )

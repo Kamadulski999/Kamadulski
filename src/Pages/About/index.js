@@ -6,9 +6,9 @@ import './about.css'
 
 function About() {
     return (
-        <>
-        <div className="about">About</div>
+        <>        
         <Nav/>
+        <div className="about">About</div>
         <Footer/>
         </>
     )

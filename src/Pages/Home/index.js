@@ -6,9 +6,9 @@ import './home.css'
 
 function Home() {
     return (
-        <>
-        <div className="home">Home</div>
+        <>        
         <Nav />
+        <div className="home">Home</div>
         <Footer />
         </>
     )

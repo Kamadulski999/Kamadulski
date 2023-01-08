@@ -5,9 +5,9 @@ import './skills.css'
 
 function Skills() {
     return (
-        <>
-        <div className="skills">Skills</div>
+        <>        
         <Nav />
+        <div className="skills">Skills</div>
         <Footer />
         </>
     )

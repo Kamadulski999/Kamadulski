@@ -6,9 +6,9 @@ import './contact.css'
 
 function Contact() {
     return (
-        <>
-        <div className="contact">Contact</div>
+        <>        
         <Nav/>
+        <div className="contact">Contact</div>
         <Footer/>
         </>
     )
