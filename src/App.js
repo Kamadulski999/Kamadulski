@@ -1,4 +1,4 @@
-import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
@@ -9,15 +9,34 @@ import Projects from "./Pages/Projects";
 
 function App() {
   return (
-    <div>
-    <Home/>
-    <About/>
-    <Projects/>    
-    <Skills/>
-    <Resume/>
-    <Contact/>
-    
-    </div>
+    <Router>
+      <Routes>
+        <Route
+          path="/"
+          element={<Home/>}
+        />
+        <Route
+          path="/About"
+          element={<About/>}
+        />
+        <Route
+          path="/Projects"
+          element={<Projects/>}
+        />
+        <Route
+          path="/Skills"
+          element={<Skills/>}
+        />
+         <Route
+          path="/Resume"
+          element={<Resume/>}
+        />
+         <Route
+          path="/Contact"
+          element={<Contact/>}
+        /> 
+      </Routes>
+    </Router>
   );
 }
 
