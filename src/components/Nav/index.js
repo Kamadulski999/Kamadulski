@@ -9,9 +9,9 @@ function Nav() {
             <div className="navLink"> 
             <Link to={"/About"}>About</Link>
             <Link to={"/Projects"}>Projects</Link>
-            <Link to={"/Skills"}>Skills</Link>
-            <Link to={"/Contact"}>Contact</Link>
+            <Link to={"/Skills"}>Skills</Link>            
             <Link to={"/Resume"}>Resume</Link> 
+            <Link to={"/Contact"}>Contact</Link>
             </div>            
         </div>
     )

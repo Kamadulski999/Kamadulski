@@ -1,5 +1,16 @@
+.footer-container {
+    display: flex;
+    background-color: aqua;
+    height: 10vh;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+
 .footer {
-    width:100%;
+    width:33%;
+    margin: 1%;
     height: 20%;
-    background-color: red;
+    background-color: white;
 }
