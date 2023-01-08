@@ -1,6 +1,7 @@
-import './home.css'
 import Nav from '../../components/Nav';
 import Footer from '../../components/Footer';
+import './home.css'
+
 
 
 function Home() {
