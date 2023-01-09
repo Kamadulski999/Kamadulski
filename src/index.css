@@ -66,13 +66,11 @@ p {
 }
 
 a {
-  color: var(--dark);
+  color: white;
   text-decoration: none;
 }
 
-a:visited {
-  color: inherit;
-}
+
 
 nav {
   width: 100%;
@@ -85,10 +83,6 @@ nav a {
   transition: all 0.2s;
 }
 
-nav a:hover {
-  color: var(--secondary);
-  background-color: var(--dark);
-}
 
 .page-title {
   text-align: center;
@@ -111,11 +105,7 @@ nav a:hover {
   transition: all 0.5s;
 }
 
-.btn:hover,
-.pill:hover {
-  color: var(--secondary);
-  background-color: var(--dark);
-}
+
 
 .btn-inline {
   display: inline;

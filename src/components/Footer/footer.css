@@ -1,6 +1,6 @@
 .footer-container {
     display: flex;    
-    height: 20vh;
+    height: 25vh;
     width: 100%;
     position: relative;
     bottom: 0;
@@ -16,3 +16,7 @@
     font-size: 2em;
     line-height: 1.5;
 }
+
+
+
+

@@ -33,7 +33,7 @@ const About = () => {
         </div>
         <div className="col-12 about-section">
             <p>               
-                <br></br><span>More about me.</span>
+                <br></br><span>While not coding, I can often be found hiking in the woods with my wife and dogs. I love nature and spend quite a bit of my free time outdoors looking for cool fossils and rocks. I also am a freshwater aquarist, breeding several species of fish in my numerous home aquariums. In addition to my love of nature, I enjoy gaming and playing tournament paintball as well.  </span>
             </p>            
         </div> 
         <div className="col-12">

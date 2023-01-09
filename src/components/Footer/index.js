@@ -2,30 +2,21 @@ import './footer.css'
 
 
 function Footer() {
-    const resume = () => {
-        console.log("click")
-    }
-    const github = () => {
-        console.log("click")
-    }
-    const email = () => {
-        console.log("click")
-    }
-    const linkedIn = () => {
-        console.log("click")
-    }
-    return (
+       return (
         <> 
-        <div className="footer-container">
-        <div className="footer">Andrew Kamadulski<br></br>React Web Developer<br></br>St. Louis, Mo  USA</div>
-        <div className="footer"> 
-        <br></br>                     
-            <span onClick={resume}>RESUME</span>             
-        </div>
+        <div className="footer-container">        
         <div className="footer">
-            <span onClick={github}>Github</span><br></br>
-            <span onClick={email}>Email</span><br></br>
-            <span onClick={linkedIn}>LinkedIn</span></div>   
+        <a href="/">Home</a><br></br>
+        <a href="https://www.facebook.com/Kamadulski99">Facebook</a><br></br>
+        <a href="https://www.linkedin.com/in/andrew-kamadulski-19b943196">LinkedIn</a><br></br>
+        <br></br>
+        </div>
+        <div className="footer">Andrew Kamadulski<br></br>React Web Developer<br></br>St. Louis, Mo  USA</div>
+        <div className="footer">
+        <a href="https://github.com/Kamadulski999/">Github</a><br></br>
+        <a href="mailto:andrew.kamadulski@gmail.com">Email</a><br></br>
+        <a href="/resume.docx">Resume</a><br></br>
+        </div>
         </div>  
         </>
     )
