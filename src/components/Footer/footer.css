@@ -1,10 +1,10 @@
 .footer-container {
-    display: flex;
-    background-color: aqua;
+    display: flex;    
     height: 10vh;
     width: 100%;
     position: relative;
     bottom: 0;
+    background-color: #01030b;;
 }
 
 

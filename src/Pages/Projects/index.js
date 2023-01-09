@@ -7,7 +7,14 @@ function Projects() {
     return (
         <>        
         <Nav />
-        <div className="projects">Projects</div>
+        <div>
+            <div className="banner">Projects</div>
+            <div className="card-container">
+            <div className="card col-12 col-med-6 col-lg-4">card</div>
+            <div className="card col-12 col-med-6 col-lg-4">card</div>
+            <div className="card col-12 col-med-6 col-lg-4">card</div>                     
+            </div>
+        </div>
         <Footer />
         </>
     )

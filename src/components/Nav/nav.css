@@ -1,13 +1,13 @@
 .nav-container {    
     height: 10vh;
-    position: sticky;
-    margin:1%; 
-   
-}
+    position: sticky;   
+    color: white;
+    background-color: #01030b;
+   }
 
 .monogram {
     font-size: 7vh; 
-    margin-left: 3%;
+    margin-left: 2%;
     }
 
 .monogram a {
