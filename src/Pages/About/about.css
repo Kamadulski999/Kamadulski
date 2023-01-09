@@ -7,10 +7,13 @@ body p {
     padding: 0 1em;
 }
 
-
+* span {
+    line-height:
+}
 .about-container {        
     display: flex;    
-    flex-wrap: wrap;       
+    flex-wrap: wrap;
+    margin: 1vw;       
 }
 
 .about-section {   

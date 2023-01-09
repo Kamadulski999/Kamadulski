@@ -5,7 +5,7 @@ return (
 <>
 <div className="col-12 col-lg-6 hello-section">
 <p className='hello-emphasis'>
-<span>Hello World, <br></br> I am Andrew Kamadulski </span><br></br> &nbsp; &nbsp; &nbsp; Web Developer
+<span>Hello World! <br></br> I am Andrew Kamadulski, </span><br></br> &nbsp; &nbsp; &nbsp; Web Developer
 &emsp;
 </p>
 </div>

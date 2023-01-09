@@ -1,9 +1,11 @@
 .home-container {    
     display: flex;    
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
+    margin: 1vw; 
     height:90vh;    
     }
 
     .welcome {
         padding: 2vw;
+        line-height: 1.5;
     }
