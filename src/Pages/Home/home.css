@@ -1,6 +1,9 @@
 .home-container {    
     display: flex;    
-    flex-wrap: wrap;     
+    flex-wrap: wrap; 
+    height:90vh;    
     }
 
-    
+    .welcome {
+        padding: 2vw;
+    }
