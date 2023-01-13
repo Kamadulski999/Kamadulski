@@ -1223,7 +1223,7 @@ nav a {
 }
 
 .card {
-  height: 90vh;  
+  height: auto;  
   margin: 2vh 0 2vh 0;
   background-color: #3E6D9C;
 }

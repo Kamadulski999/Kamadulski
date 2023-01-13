@@ -16,14 +16,14 @@ function Projects() {
         image: "Trivia.png",
         url: "//www.lilithphotography.com",
         github: "//github.com/Kamadulski999/Train4Trivia", 
-        text: "Trivia Trainer allows users to select a category and number of questions and then access The Open TriviaDB API to populate the question and answers for a game."   
+        text: "Trivia Trainer is a game that asks users for a trivia category and the number of questions to answer, then fetchs the appropriate data from The Open TriviaDB API for display."   
         },
         {
         title: "Horror Scorer",
         image: "Horror.png",
         url: "//www.lilithphotography.com",
         github: "https://github.com/Kamadulski999/", 
-        text: "Horror Scorer is a horror themed social media app that allows Horror movie fans to discuss and rate their favorite movies."      
+        text: "Horror Scorer is a full stack social media app that allows horror movie fans to discuss and rate their favorite movies. Data is provided from TheMovieDB API."      
         }]
 
  
@@ -31,19 +31,19 @@ function Projects() {
     return (
         <>         
         <Nav />
-        <div>
+        <div className='m-2'>
             <div className="banner">Projects</div>
             <div className="card-container">
             {cardsArr.map(({title, text, url, github, image})=>{
             return (
-                <div className="card col-12 col-med-6 col-lg-4" key={title}>
+                <div className="card project-card col-12 col-med-6 col-lg-4" key={title}>
                 <div className="card-title">{title}</div>
-                <img className="card-image" src={image} alt=""/>
+                <div className="images"><img className="card-image" src={image} alt=""/></div>
                 <div>                
                 <p className="card-text mt-5">{text}</p>
                 <div className='card-link'>
-                <div className='btn  mt-5'><a href={url}>Deployment</a></div>
-                <div className='btn'><a href={github}>GitHub</a></div>
+                <a href={url}><div className='btn'>Deployment</div></a>
+                <a href={github}><div className='btn'>GitHub</div></a>
                 </div>
                 </div>
             </div>

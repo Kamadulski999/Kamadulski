@@ -6,10 +6,11 @@ import './contact.css'
 
 function Contact() {
     return (
-        <>        
+        <>              
         <Nav/>
-        <div className="contact">Contact</div>
-        <Footer/>
+        <div className='contact'>
+        <Footer/>        
+        </div> 
         </>
     )
 };

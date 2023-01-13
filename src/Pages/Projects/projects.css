@@ -2,22 +2,31 @@
 .banner {
     height: 10vh;    
     font-size: 8vh;
-    margin: 2vh 0 0 2vw;           
+    margin: 3rem 0 0 3rem;           
 }
 
 .card-container {
     display: flex;
     flex-wrap: wrap; 
-    margin: 5vh 1vw;      
+    margin: 5vh 2vw;      
 }
 
 .card {    
-    margin: 0.5vh;
     padding: 1vw;
-}
+    border-radius: 2%;       
+    }
+
+    .project-card {
+        max-width: 30%;
+        margin-left: 2.8rem;
+    }
+    .images {
+        padding-left: 10%;
+        margin-top: 5em;
+    }
 
 .card-image {
-    width: 100%;
+    width: 90%;
     border-radius: 2%;
     box-shadow: 0px 5px 10px 0px var(--dark);
 }
@@ -25,19 +34,23 @@
 .card-title {    
     font-size: 3rem;
     text-decoration: underline;
-    margin-bottom: 2rem;
+    margin-bottom: 3r
 }
 .card-text {   
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin: 3rem 0;
+    padding: 3rem;
 }
 
 
 .card-link {    
     text-align: center;
     position: relative;
-    left: 25%;      
+    left: 25%;    
+    margin: 3rem 0 3rem 0;
+      
 }
-.card-link div {    
+.card-link * {    
     width: 50%;   
 } 
+
