@@ -35,7 +35,7 @@ function Skills() {
                 <ul>
                 <li>Mongoose</li>
                     <li>Sequelize</li>
-                    <li>GraphQl</li>
+                    <li>GraphQL</li>
                     <li>JQuery</li>
                     <li>Bootstrap</li>
                     <li>Materialize</li>
@@ -50,6 +50,25 @@ function Skills() {
             <div className="education-card">
             <div className="card education-card">
             <div className="card-banner ml-2">Education</div>
+            <div className='education'>
+                <div>Coding Bootcamp - Washington University in St Louis</div>
+                <div>M.S. Chemistry - Southern Illinois University Edwardsville</div>
+                <div>B.S. Microbiology - Northern Arizona University </div>                   
+            </div>
+            <div className="card-banner ml-2 mt-5">Awards</div>
+            <div className='education'>
+                <div>3 Year Graduate (B.S) - Magna Cum Laude </div>  
+                <div>Bouman Prize - Awarded for the best graduate research presentation for the year at SIUE </div>
+                <div>Sigma Xi Outstanding Graduate Student </div>
+                <div>American Chemical Society Analytical Chemistry Award </div>                   
+            </div>
+            <div className="card-banner ml-2 mt-5">Current Studies</div>
+            <div className='education'>
+                <div>TypeScript</div>  
+                <div>React Testing Library and Jest </div>
+                <div>Data Structures and Algorithms</div>
+                <div>Amazon Web Services Developer Certification</div>                   
+            </div>                
             </div>
             </div>
             </div> 

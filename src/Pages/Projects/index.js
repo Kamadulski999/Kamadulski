@@ -23,7 +23,7 @@ function Projects() {
         image: "Horror.png",
         url: "//www.lilithphotography.com",
         github: "https://github.com/Kamadulski999/", 
-        text: "Horror Scorer is a full stack social media app that allows horror movie fans to discuss and rate their favorite movies. Data is provided from TheMovieDB API."      
+        text: "Horror Scorer is a full stack social media app that allows horror movie fans to discuss their favorite movies with their friends. Movie information and ratings provided from TheMovieDB API."      
         }]
 
  
