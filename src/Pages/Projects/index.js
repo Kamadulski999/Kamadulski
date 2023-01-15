@@ -38,7 +38,7 @@ function Projects() {
             return (
                 <div className="card project-card col-12 col-med-6 col-lg-4" key={title}>
                 <div className="card-title">{title}</div>
-                <div className="images"><img className="card-image" src={image} alt=""/></div>
+                <div className="images"><img className="card-image" src={`/assets/images/${image}`} alt=""/></div>
                 <div>                
                 <p className="card-text mt-5">{text}</p>
                 <div className='card-link'>

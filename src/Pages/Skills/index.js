@@ -14,7 +14,7 @@ function Skills() {
             <div className="card cert-card">
                     <div className="card-banner">Certifications</div>
                     <div className='btn-container'>                   
-                    <a href="Andrew Kamadulski.pdf" className="skill-btn"><div className="btn">JavaScript Web Developer</div></a>
+                    <a href="/assets/images/AndrewKamadulski.pdf" className="skill-btn"><div className="btn">JavaScript Web Developer</div></a>
                     <a href="https://www.credly.com/badges/cc09723b-dfa3-4ccc-b85e-b2e44b8fe9f5" className="skill-btn"><div className="btn">AWS Cloud Practitioner</div></a>
                     </div>
             </div>

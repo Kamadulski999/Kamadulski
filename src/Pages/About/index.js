@@ -28,9 +28,9 @@ const About = () => {
         </div>
         <div className="about-section col-12">
             <div className="about-images">
-                <div className="col-4 about-img"><img src="Zelda.jpg" alt="" /></div>
-                <div className="col-4 about-img"><img src="Wedding.jpg" alt="" /></div>
-                <div className="col-4 about-img"><img src="Suspects.jpg" alt="" /></div>
+                <div className="col-4 about-img"><img src="/assets/images/Zelda.jpg" alt="" /></div>
+                <div className="col-4 about-img"><img src="/assets/images/Wedding.jpg" alt="" /></div>
+                <div className="col-4 about-img"><img src="/assets/images/Suspects.jpg" alt="" /></div>
                 
             </div>
         </div>

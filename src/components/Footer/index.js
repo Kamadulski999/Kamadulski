@@ -15,7 +15,7 @@ function Footer() {
         <div className="footer pr-5">
         <a href="https://github.com/Kamadulski999/">Github</a><br></br>
         <a href="mailto:andrew.kamadulski@gmail.com">Email</a><br></br>
-        <a href="/resume.docx">Resume</a><br></br>
+        <a href="/assets/Resume.pdf">Resume</a><br></br>
         </div>
         </div>  
         </>
