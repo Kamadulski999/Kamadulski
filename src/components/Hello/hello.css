@@ -1,15 +1,13 @@
 .hello-emphasis {
-    margin: 2rem 0 0 20rem;
-    font-size: 3em;    
+    margin: 2rem 0 0 35%;
+    font-size: 3rem;    
 }
 
 .hello-section {   
     margin: 0.2rem;
     display: flex;  
     text-align: center;  
-    margin-top: 10rem;
-    width: 15vw;
-    
+    margin-top: 10rem;     
 }
 
 .hello-section img {        
@@ -18,6 +16,12 @@
 
 .portrait {
     justify-content: center;
+}
+@media (max-width: 1720px) {
+    .hello-emphasis {
+        font-size: 2rem;
+        margin:1rem 0 0 35%;
+    }
 }
 
 @media (max-width: 600px) {
