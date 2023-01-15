@@ -1,5 +1,5 @@
 .hello-emphasis {
-    margin: 3vh 0 0 5vw;
+    margin: 2rem 0 0 20rem;
     font-size: 3em;    
 }
 
@@ -11,10 +11,8 @@
     
 }
 
-.hello-section img {    
-    max-width: 100%;
-    max-height: 90%;
-    padding-top: 2.25em;       
+.hello-section img {        
+    margin-left: 10rem;  
 }
 
 .portrait {

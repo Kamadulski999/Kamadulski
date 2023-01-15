@@ -19,11 +19,12 @@
     right: 0;
     top:0;
     display: flex;
-    margin: 1em 3em 0 0;        
+    margin: 1em 3em 0 0;          
    }
 
    .navLink * {
       margin: 1em;
+      font-size: 1.5rem; 
       text-decoration: none;
    }
 

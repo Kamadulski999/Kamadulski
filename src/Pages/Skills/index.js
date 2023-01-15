@@ -25,12 +25,12 @@ function Skills() {
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>Javascript ES6</li>
-                    <li>React</li>                    
-                    <li>Express.js</li>
-                    <li>Node.js</li> 
+                    <li>Node.js</li>
+                    <li>React</li>
+                    <li>Redux</li>   
+                    <li>Express.js</li>                                    
                     <li>MongoDB</li>                    
-                    <li>MySQL</li>
-                    <li>Redux</li>                    
+                    <li>MySQL</li>                                     
                 </ul>
                 <ul>
                 <li>Mongoose</li>
@@ -40,7 +40,7 @@ function Skills() {
                     <li>Bootstrap</li>
                     <li>Materialize</li>
                     <li>Tailwind</li>                    
-                    <li>REST API</li>                    
+                    <li>REST APIs</li>                    
                     <li>Git</li>                   
                 </ul>
             </div> 
@@ -57,17 +57,17 @@ function Skills() {
             </div>
             <div className="card-banner ml-2 mt-5">Awards</div>
             <div className='education'>
-                <div>3 Year Graduate (B.S) - Magna Cum Laude </div>  
-                <div>Bouman Prize - Awarded for the best graduate research presentation for the year at SIUE </div>
+                <div>3 Year Graduate (B.S.) - Magna Cum Laude </div>  
+                <div>Bouman Prize - Awarded for the best graduate research presentation of the year at SIUE </div>
                 <div>Sigma Xi Outstanding Graduate Student </div>
                 <div>American Chemical Society Analytical Chemistry Award </div>                   
             </div>
             <div className="card-banner ml-2 mt-5">Current Studies</div>
             <div className='education'>
-                <div>TypeScript</div>  
+                <div>TypeScript</div>
+                <div>React Native</div>  
                 <div>React Testing Library and Jest </div>
-                <div>Data Structures and Algorithms</div>
-                <div>Amazon Web Services Developer Certification</div>                   
+                <div>Data Structures and Algorithms</div>                   
             </div>                
             </div>
             </div>

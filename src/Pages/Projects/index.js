@@ -23,7 +23,7 @@ function Projects() {
         image: "Horror.png",
         url: "//www.lilithphotography.com",
         github: "https://github.com/Kamadulski999/", 
-        text: "Horror Scorer is a full stack social media app that allows horror movie fans to discuss their favorite movies with their friends. Movie information and ratings provided from TheMovieDB API."      
+        text: "Horror Scorer is a full stack social media app that allows horror movie fans to discuss their favorite movies with their friends. Movie information provided from TheMovieDB API."      
         }]
 
  
@@ -42,7 +42,7 @@ function Projects() {
                 <div>                
                 <p className="card-text mt-5">{text}</p>
                 <div className='card-link'>
-                <a href={url}><div className='btn'>Deployment</div></a>
+                <a href={url}><div className='btn'>Website</div></a>
                 <a href={github}><div className='btn'>GitHub</div></a>
                 </div>
                 </div>
