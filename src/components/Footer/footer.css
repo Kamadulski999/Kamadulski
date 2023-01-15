@@ -1,9 +1,10 @@
 .footer-container {
     display: flex;    
-    height: 25vh;
+    height: 15rem;
     background-color: #01030b;
-    margin-top:5rem;
-}
+    margin-top:5rem;  
+}  
+   
 
 
 .footer {
@@ -11,10 +12,23 @@
     margin: 1%;  
     text-align: center;  
     color: white;
-    font-size: 2em;
+    font-size: 2rem;
     line-height: 1.5;
+    padding-top: 2rem;
 }
 
+@media (max-width: 600px) {
+   
+
+    .footer {
+       width: 50%;
+       font-size: 1.5rem;        
+    }
+
+    .mobile-hide {
+        display: none;
+    }
+}
 
 
 

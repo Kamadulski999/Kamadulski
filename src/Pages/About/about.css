@@ -54,10 +54,19 @@
 }
 
 @media (max-width: 600px) {
+    .about-p {
+        font-size: 1em;}
 body p {
     font-size:1em;
 }
 .about-container {
    margin:  1em 0 0 0.5em;
+}
+.about-images {
+    width: 85vw;       
+}
+.about-img {
+    margin: 0 5px;
+    width:25vw;         
 }
 }

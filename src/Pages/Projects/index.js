@@ -42,8 +42,10 @@ function Projects() {
                 <div>                
                 <p className="card-text mt-5">{text}</p>
                 <div className='card-link'>
+                    <div className="btn-container">
                 <a href={url}><div className='btn'>Website</div></a>
                 <a href={github}><div className='btn'>GitHub</div></a>
+                </div>
                 </div>
                 </div>
             </div>

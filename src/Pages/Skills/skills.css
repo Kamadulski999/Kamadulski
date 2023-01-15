@@ -1,9 +1,11 @@
 
+
+
 .skill-container {   
    display: flex;
    flex-wrap:wrap;
-   justify-content: center;
-}
+   justify-content: center;   
+   }
 
 
 .skill-lists *{
@@ -64,4 +66,53 @@
     padding-left: 5rem;
     line-height: 1.5;
     
+}
+
+@media (max-width: 600px) {  
+    .cert-card {
+        margin-top: 5rem;
+    }
+    .skill-card {   
+        height: 25rem;
+    }
+    
+    
+    .education-card { 
+        height: 50rem;        
+    }
+
+    .education div {
+        margin: 1rem 1rem 1rem 3rem;
+        font-size: 1rem;
+    }
+    
+    .card-banner {
+        font-size: 1.5rem;
+        text-decoration: underline;
+        text-align: center;
+    }
+    
+    .btn-container {
+        display: flex;
+        justify-content: center;   
+        flex-wrap: wrap;
+        
+    }
+    
+    .skill-btn {     
+        max-width: 20rem;         
+    }
+
+   
+    .skill-lists {       
+        font-size: 1rem;
+              
+    }
+
+    .skill-lists ul {        
+        line-height: 1.5;  
+        text-align: left; 
+        padding:1rem;     
+    }
+
 }

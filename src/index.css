@@ -102,6 +102,7 @@ nav a {
   outline: none;
   background-color: var(--dark);
   transition: all 0.5s;
+  z-index: -1;
 }
 
 
@@ -1236,6 +1237,13 @@ nav a {
 .hide {
   display: none;
 }
+
+.banner {
+  height: 8rem;    
+  font-size: 8vh;
+  margin: 8rem 0 0 3rem;           
+}
+
 
 
 

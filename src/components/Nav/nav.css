@@ -1,6 +1,6 @@
 .navbar {    
     height: 10vh;
-    width:100vw;     
+    width:110vw;     
     color: white;
     background-color: #01030b;
     position: fixed;
@@ -31,9 +31,6 @@
       text-decoration: none;
    }
 
-   .fa-firstdraft {
-    font-size: 1.6rem;
-}
 
 .nav-menu {
     display: grid;
@@ -65,12 +62,9 @@
 
 .fa-bars {    
     position: absolute;
-    right: -15vw;
-    top: 5vh;
-}
-.fa-times {    
-    position: absolute;
-    right: -15vw;   
+    left: 2.5rem;
+    top: 3rem;
+    
 }
 
 .nav-links-mobile {
@@ -105,23 +99,20 @@
     .nav-menu.active {
         left: -95vw;
         top: 15vh;
-        width: 110vw;
+        width: 26rem;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
         opacity: 1;
         transition: all 0.5s ease;        
-        position:absolute;
-       
-        
-
+        position:absolute;               
     }
 
     .nav-links {
-        text-align: center;
-        padding: 1rem;
+        text-align: center;      
         width: 100%;
-        color:black!important;
+        padding-right: 2rem;
+        color:black;
     }
 
     .nav-links:hover {
@@ -142,30 +133,11 @@
 
     .fa-times {
         position: absolute;
-        right: -15vw;
-        top: 2vw;        
-        font-size: 2rem;        
+        left: 2.5rem;
+        top: 3rem;           
     }
-
-    .nav-links-mobile {
-        display: block;
-        text-align: center;
-        padding: 1.5rem;
-        margin: 2rem auto;
-        border-radius: 4px;
-        width: 80%;
-        background: white;
-        text-decoration: none;
-        color: #fff;
-        font-size: 1.5rem;
-    }
-
-    .nav-links-mobile:hover {
-        background: #fff;
-        color: white;
-        transition: 250ms;
-    }
-
+   
+   
   
 }
 
@@ -180,19 +152,25 @@ nav a {
     .navbar {
         height: 15vh;
     }
-
-        .lilith {
-        padding-top: 5vh;
+    .monogram  {
+        margin: 1rem 0 0 2rem;
     }
+
+    .navLink * {       
+        font-size: 1rem;  
+    }
+
+
 
 }
 
 @media (max-height: 600px) and (max-width: 900px) {
-    .lilith {
-        padding-top: 20vh;
-    }
 
     .menu-icon {
     padding-right:5vw;
     }
+
+    
+
+    
 }
