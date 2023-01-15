@@ -18,17 +18,15 @@
     }
 
 .navLink {
-    position: absolute;
-    right: 0;
-    top: -8vh;
+    position: fixed;   
+    top: 0;
     display: flex;
-    margin: 1em 3em 0 0;          
-   }
+    }
 
-   .navLink * {
-      margin: 1em;
+   .navLink * {      
       font-size: 1.5rem; 
       text-decoration: none;
+      margin-right: 2rem;
    }
 
 
@@ -61,7 +59,7 @@
 }
 
 .fa-bars {    
-    position: absolute;
+    position: absolute;    
     left: 2.5rem;
     top: 3rem;
     
@@ -78,9 +76,12 @@
 
 
 @media screen and (max-width: 960px) {
-    .NavbarItems {
-        position: relative;
+    .navLink{
+        position: fixed;
+        right: 5vw;
+        top: 0;
     }
+
 
     .nav-menu {
         display: flex;
