@@ -14,7 +14,7 @@ function Projects() {
         {
         title: "Trivia Trainer",
         image: "Trivia.png",
-        url: "//www.trainfortrivia.com",
+        url: "https://main.d2e1ulzezimtka.amplifyapp.com/",
         github: "//github.com/Kamadulski999/Train4Trivia", 
         text: "Trivia Trainer is a game that asks users for a trivia category and the number of questions to answer, then fetchs the appropriate data from The Open TriviaDB API for display."   
         },
