@@ -36,7 +36,7 @@ const About = () => {
         </div>
         <div className="col-12 about-section">
             <p className='about-p'>               
-                <br></br><span>While not coding, I can often be found hiking in the woods with my wife and dogs. I love nature and spend quite a bit of my free time outdoors looking for cool fossils and rocks. I enjoy freshwater aquaria; breeding multiple species of fish in several home aquariums. In addition to my love of nature, I also spend time gaming and playing tournament paintball.  </span>
+                <br></br><span>While not coding, I can often be found hiking in the woods with my wife and dogs. I love nature and spend quite a bit of my free time outdoors looking for cool fossils and rocks. I enjoy freshwater aquaria and breed multiple species of fish in several home aquariums. In addition to my love of nature, I also spend time gaming and playing tournament paintball.  </span>
             </p>            
         </div> 
         <div className="col-12">

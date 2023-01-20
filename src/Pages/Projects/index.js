@@ -36,11 +36,13 @@ function Projects() {
             <div className="card-container">
             {cardsArr.map(({title, text, url, github, image})=>{
             return (
-                <div className="card project-card col-12 col-med-6 col-lg-4" key={title}>
+                <div className="card project-card col-12" key={title}>
                 <div className="card-title">{title}</div>
                 <div className="images"><img className="card-image" src={`/assets/images/${image}`} alt=""/></div>
-                <div>                
+                <div>    
+                <div>            
                 <p className="card-text mt-5">{text}</p>
+                </div>
                 <div className='card-link'>
                     <div className="btn-container">
                 <a href={url}><div className='btn'>Website</div></a>

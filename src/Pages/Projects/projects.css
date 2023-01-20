@@ -33,6 +33,7 @@
     text-decoration: underline;
     margin-bottom: 3rem;
 }
+
 .card-text {   
     font-size: 1.5rem;
     margin: 3rem 0;
@@ -47,7 +48,15 @@
     width: 65%;
 }
 
+@media (max-width: 1420px) {
+    .project-card {
+        max-width: 80%;
+    }
 
+    .card-title {    
+        font-size: 1.5rem;
+    }
+}
 
 @media (max-width: 600px) {
     .project-card {
