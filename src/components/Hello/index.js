@@ -9,7 +9,7 @@ return (
 &emsp;
 </p>
 </div>
-<div className="portrait col-12 col-lg-4 hello-section"><img alt='' src="https://via.placeholder.com/140x100" /></div> 
+<div className="portrait col-12 col-lg-4 hello-section"><img src="/assets/images/profile.png" alt="" /></div> 
 
 
 </>

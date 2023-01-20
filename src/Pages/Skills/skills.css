@@ -26,7 +26,6 @@
 
 
 .education-card { 
-    height: 54rem;
     width:100%;
   
 }
@@ -59,10 +58,10 @@
 }
 .skill-lists {
     display: flex;
-    font-size: 1.5rem;    
+    font-size: 1.5rem; 
+    margin-right:   
 }
-.skill-lists ul {
-    padding-left: 5rem;
+.skill-lists ul {    
     line-height: 1.5;
     
 }

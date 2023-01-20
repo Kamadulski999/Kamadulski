@@ -8,21 +8,21 @@ function Projects() {
         title: "Lilith Photography",
         image: "Lilith.png",
         url: "//www.lilithphotography.com",
-        github: "https://github.com/Kamadulski999/", 
+        github: "https://github.com/Kamadulski999/Lilith_Photography", 
         text: "This site for my wife's photography business features Express.js for serving images to the React front end and NodeMailer for sending emails from the contact page."  
         },
         {
         title: "Trivia Trainer",
         image: "Trivia.png",
-        url: "//www.lilithphotography.com",
+        url: "//www.trainfortrivia.com",
         github: "//github.com/Kamadulski999/Train4Trivia", 
         text: "Trivia Trainer is a game that asks users for a trivia category and the number of questions to answer, then fetchs the appropriate data from The Open TriviaDB API for display."   
         },
         {
         title: "Horror Scorer",
         image: "Horror.png",
-        url: "//www.lilithphotography.com",
-        github: "https://github.com/Kamadulski999/", 
+        url: "https://afternoon-ridge-57186.herokuapp.com/",
+        github: "https://github.com/Kamadulski999/Horror_Scorer", 
         text: "Horror Scorer is a full stack social media app that allows horror movie fans to discuss their favorite movies with their friends. Movie information provided from TheMovieDB API."      
         }]
 

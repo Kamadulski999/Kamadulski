@@ -16,6 +16,7 @@
 
 .portrait {
     justify-content: center;
+    height: 40vh;
 }
 @media (max-width: 1720px) {
     .hello-emphasis {
