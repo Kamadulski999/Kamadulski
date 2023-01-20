@@ -1,5 +1,5 @@
 .hello-emphasis {
-    margin: 2rem 0 0 35%;
+    margin: 1rem 0 0 35%;
     font-size: 3rem;    
 }
 
@@ -15,8 +15,7 @@
 }
 
 .portrait {
-    justify-content: center;
-    height: 40vh;
+    justify-content: center;    
 }
 @media (max-width: 1720px) {
     .hello-emphasis {
@@ -28,11 +27,11 @@
 @media (max-width: 600px) {
     .hello-emphasis {
         font-size: 1.7rem;
-        margin:3rem 1rem 0 1rem;
+        margin:1rem 1rem 0 1rem;
     }
 
     .hello-section img {        
-        margin: -2rem 1rem 1rem 1rem
+        margin: -5rem 1rem 1rem 1rem
     }
 
 
