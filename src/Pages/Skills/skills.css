@@ -48,11 +48,13 @@
 
 .skill-btn {
     color: white;
-    margin-top: 3rem;  
+    margin-top: 3rem; 
     width: 100%;
     max-width: 30rem;
     text-align: center;   
     }
+
+
 .btn {
     color:white;
 }

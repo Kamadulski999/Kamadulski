@@ -2,6 +2,21 @@ import './footer.css'
 
 
 function Footer() {
+
+    const resumeClick = () => {
+        // using Java Script method to get PDF file
+        fetch("assets/Resume.pdf").then(response => {
+            response.blob().then(blob => {
+                // Creating new object of PDF file
+                const fileURL = window.URL.createObjectURL(blob);
+                // Setting various property values
+                let alink = document.createElement('a');
+                alink.href = fileURL;
+                alink.download = 'AndrewKamadulski_Resume.pdf';
+                alink.click();
+            })
+        })
+    }
        return (
         <> 
         <div className="footer-container">        
@@ -15,7 +30,7 @@ function Footer() {
         <div className="footer pr-5">
         <a href="https://github.com/Kamadulski999/">Github</a><br></br>
         <a href="mailto:andrew.kamadulski@gmail.com">Email</a><br></br>
-        <a href="/assets/Resume.pdf">Resume</a><br></br>
+        <div className="resume" onClick={resumeClick}>Resume</div><br></br>
         </div>
         </div>  
         </>
