@@ -1,24 +1,10 @@
 import Nav from '../../components/Nav';
 import Footer from '../../components/Footer';
+import AWS from "../../AndrewKamadulski.pdf"
 import './skills.css'
 
 
 function Skills() {
-
-    const certClick = () => {
-        // using Java Script method to get PDF file
-        fetch("./AndrewKamadulski.pdf").then(response => {
-            response.blob().then(blob => {
-                // Creating new object of PDF file
-                const fileURL = window.URL.createObjectURL(blob);
-                // Setting various property values
-                let alink = document.createElement('a');
-                alink.href = fileURL;
-                alink.download = './AndrewKamadulski.pdf';
-                alink.click();
-            })
-        })
-    }
     return (
         <>        
         <Nav />
@@ -29,9 +15,11 @@ function Skills() {
             <div className="card cert-card">
                     <div className="card-banner">Certifications</div>
                     <div className='btn-container'>                   
-                    <div  className="skill-btn" onClick={certClick}><div className="btn">JavaScript Web Developer</div></div>
+                    <div className="skill-btn"><a href={AWS} target="_blank"  
+                    rel="noreferrer"><div className="btn">JavaScript Web Developer</div></a></div>
                     <div className="skill-btn"><a href="https://www.credly.com/badges/cc09723b-dfa3-4ccc-b85e-b2e44b8fe9f5"><div className="btn">AWS Cloud Practitioner</div></a></div>
                     </div>
+                    
             </div>
             <div className="skill-card card">             
             <div className="card-banner">Skills</div>

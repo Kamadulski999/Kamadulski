@@ -1,4 +1,5 @@
 import './footer.css'
+import Resume from "../../Resume.pdf"
 
 
 function Footer() {
@@ -30,7 +31,7 @@ function Footer() {
         <div className="footer pr-5">
         <a href="https://github.com/Kamadulski999/">Github</a><br></br>
         <a href="mailto:andrew.kamadulski@gmail.com">Email</a><br></br>
-        <div className="resume" onClick={resumeClick}>Resume</div><br></br>
+        <a href={Resume} target="_blank" rel="noreferrer">Resume</a>
         </div>
         </div>  
         </>
