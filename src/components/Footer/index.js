@@ -1,22 +1,8 @@
-import './footer.css'
+import "./footer.css";
+import Resume from "./Resume.pdf";
 
 
 function Footer() {
-
-    const resumeClick = () => {
-        // using Java Script method to get PDF file
-        fetch("./Resume.pdf").then(response => {
-            response.blob().then(blob => {
-                // Creating new object of PDF file
-                const fileURL = window.URL.createObjectURL(blob);
-                // Setting various property values
-                let alink = document.createElement('a');
-                alink.href = fileURL;
-                alink.download = './Resume.pdf';
-                alink.click();
-            })
-        })
-    }
        return (
         <> 
         <div className="footer-container">        
@@ -30,7 +16,7 @@ function Footer() {
         <div className="footer pr-5">
         <a href="https://github.com/Kamadulski999/">Github</a><br></br>
         <a href="mailto:andrew.kamadulski@gmail.com">Email</a><br></br>
-        <a href="/Resume.pdf" target="_blank" rel="noreferrer">Resume</a>
+        <a href={Resume} target="_blank" rel="noreferrer">Resume</a>
         </div>
         </div>  
         </>

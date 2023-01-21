@@ -1,5 +1,6 @@
 import Nav from '../../components/Nav';
 import Footer from '../../components/Footer';
+import Cert from './AndrewKamadulski.pdf'
 import './skills.css'
 
 
@@ -14,7 +15,7 @@ function Skills() {
             <div className="card cert-card">
                     <div className="card-banner">Certifications</div>
                     <div className='btn-container'>                   
-                    <div className="skill-btn"><a href="/AndrewKamadulski.pdf" target="_blank"  
+                    <div className="skill-btn"><a href={Cert} target="_blank"  
                     rel="noreferrer"><div className="btn">JavaScript Web Developer</div></a></div>
                     <div className="skill-btn"><a href="https://www.credly.com/badges/cc09723b-dfa3-4ccc-b85e-b2e44b8fe9f5"><div className="btn">AWS Cloud Practitioner</div></a></div>
                     </div>
