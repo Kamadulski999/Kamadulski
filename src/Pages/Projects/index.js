@@ -23,7 +23,7 @@ function Projects() {
         image: "Horror.png",
         url: "https://afternoon-ridge-57186.herokuapp.com/",
         github: "https://github.com/Kamadulski999/Horror_Scorer", 
-        text: "Horror Scorer is a full stack social media app that allows horror movie fans to discuss their favorite movies with their friends. Movie information provided from TheMovieDB API."      
+        text: "Horror Scorer is a full stack social media app that allows horror movie fans to discuss their favorite movies with their friends. Movie information is provided from TheMovieDB API."      
         }]
 
  
