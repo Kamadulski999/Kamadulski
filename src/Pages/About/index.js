@@ -42,7 +42,7 @@ const About = () => {
         <div className="col-12">
             <div className="mt-5"><hr className='ml-5 mr-5'></hr></div>
         </div>
-        <div className="col-12 about-section">
+        {/* <div className="col-12 about-section">
             <p className='about-p m-2'>
                 <span className="about-section-banner">
                     A New Direction
@@ -51,7 +51,7 @@ const About = () => {
                  Laboratory Integrated Management System (LIMS). My role was to assist in data collection, cleaning, and uploading into the database as well as setting configurations manually where necessary within the software. After helping with the set up of the development databases and servers, I then assisted in testing the User Interface and troubleshooting and fixing problems with the system.<br></br><br></br> While working on that project I was operating under Agile management with daily scrums, scheduled deliverables, and a very talented team of people to work alongside. It seemed this type of environment is exactly what I had been missing. I decided then to seek out more training and education in computer science. Along with the enjoyment of working on a small project based team, the idea of a constantly evolving and changing field where there are always new things to learn and explore really excites me. <br></br><br></br> The first step 
                  of my journey was enrolling in a Full-Stack JavaScript Web Developer Bootcamp at Washington University in St. Louis. During that time I devoted myself full time to learning JavaScript and understanding the MERN stack. While studying in bootcamp I fell in love with coding and making web apps. I found that much of what I learned as an Organic Chemist such as basic logic, problem solving, design patterns, troubleshooting and other skills carried over directly into coding. Once again I was seeing immediate tangible results of my efforts as I designed new things and then worked to implement those ideas.<br></br><br></br> After graduation, I have continued learning on my own with help from several Udemy courses. I have also been studying the AWS cloud and just recently passed the AWS Cloud Practitioner Certification exam. Currently, I am seeking my first role as an entry level web developer in order to continue this journey. I look forward to joining a team as a Junior Developer and learning from others with experience who will help me grow in this career.</span>
             </p>            
-        </div> 
+        </div>  */}
         </div>  
         <Footer />     
         </>
